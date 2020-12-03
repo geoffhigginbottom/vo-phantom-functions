@@ -1,5 +1,5 @@
 import json
-import boto3
+import os
 
 VICTOROPSURL = os.environ['VICTOROPSURL'] # GH Added Env Var instead of using hard coded URL
 VOAPIID = os.environ['VOAPIID'] # GH Added Env Var
